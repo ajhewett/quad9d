@@ -1,8 +1,13 @@
-# quad9d
+# ajhewett/quad9d
 
 Run the cloudflared proxy-dns on port 5054 using the DNS over HTTPS endpoints from quad9.
 
-This docker image is a simple extension of the visibilityspots/cloudflared image to use the quad9 DNS over HTTPS endpoints.
+This docker image is a simple extension of the [visibilityspots/cloudflared](https://hub.docker.com/r/visibilityspots/cloudflared/) image to use the quad9 DNS over HTTPS endpoints.
+
+The docker image is published to [ajhewett/quad9d](https://hub.docker.com/r/ajhewett/quad9d) on Docker Hub and can be pulled there:
+```
+docker pull ajhewett/quad9d
+```
 
 ## Environment Variables
 
