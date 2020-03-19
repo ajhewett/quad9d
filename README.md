@@ -23,7 +23,7 @@ ENV UPSTREAM1 https://${DNS1}/dns-query
 ENV UPSTREAM2 https://${DNS2}/dns-query
 ```
 
-You can set these variables to use run a container with different DoH servers. 
+You can set these variables to run a container with different DoH servers. 
 
 ## License
 
