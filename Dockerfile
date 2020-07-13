@@ -1,6 +1,6 @@
 FROM visibilityspots/cloudflared
 
-ENV 5054
+ENV PORT 5054
 ENV DNS1 9.9.9.9
 ENV DNS2 149.112.112.112
 
